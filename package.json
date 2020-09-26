@@ -1,0 +1,19 @@
+{
+  "name": "folders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "jshint": "jshint --verbose web/js/*.js",
+    "jslint": "jslint --color web/js/*.js",
+    "pretest": "npm run jslint && npm run jshint",
+    "test": "echo 'NOTE: no test specified'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.12.0",
+    "jslint": "^0.12.1"
+  }
+}
